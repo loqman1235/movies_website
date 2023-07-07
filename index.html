@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film.Io | Watch free movies and serials</title>
+    <link
+      href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav class="sidebar_nav active">
+      <a href="#" class="brand"
+        ><i class="fad fa-camera-movie"></i>
+        <div class="brand-txt">Film.<span>Io</span></div></a
+      >
+
+      <div class="menus">
+        <ul class="nav_links">
+          <li class="active">
+            <a href="#"
+              ><i class="fas fa-house"></i>
+              <span class="nav_link_text">Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="far fa-compass"></i>
+              <span class="nav_link_text">Discover</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="far fa-video"></i>
+              <span class="nav_link_text">Movies</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="far fa-film"></i>
+              <span class="nav_link_text">TV Shows</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="far fa-heart"></i>
+              <span class="nav_link_text">Watchlist</span></a
+            >
+          </li>
+        </ul>
+        <ul class="nav_bottom">
+          <li>
+            <a href="#"
+              ><i class="far fa-cog"></i>
+              <span class="nav_link_text">Settings</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="far fa-sign-out"></i>
+              <span class="nav_link_text">Logout</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <nav class="navbar">
+        <div class="nav_left">
+          <div class="toggleSidebarBtn" id="toggleSidebarBtn">
+            <i class="far fa-bars"></i>
+          </div>
+          <form action="#" class="search_form">
+            <input
+              type="text"
+              name="searchInp"
+              id="searchInp"
+              placeholder="Search a movie..."
+            />
+            <button class="search_btn"><i class="far fa-search"></i></button>
+          </form>
+        </div>
+        <!-- <ul class="account">
+          <li><a href="#">Login</a></li>
+          <li class="active"><a href="#">Register</a></li>
+        </ul> -->
+
+        <div class="profile">
+          <div class="profile_img">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzHQv_th9wq3ivQ1CVk7UZRxhbPq64oQrg5Q&usqp=CAU"
+              alt=""
+            />
+          </div>
+          <div class="profile_details">
+            <div class="user_details">
+              <p class="username">Axel Djefafla</p>
+              <p class="account_type">Free Subscription</p>
+            </div>
+            <div class="toggleProfileDropdownBtn" id="toggleProfileDropdownBtn">
+              <i class="far fa-caret-down"></i>
+            </div>
+          </div>
+
+          <!-- Profile Dropdown -->
+          <ul class="profileDropdown">
+            <li>
+              <a href="#"><i class="far fa-user-circle"></i> Profile</a>
+            </li>
+            <li>
+              <a href="#"><i class="far fa-cog"></i> Settings</a>
+            </li>
+            <span class="separator"></span>
+            <li>
+              <a href="#"><i class="far fa-sign-out"></i> Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <header>
+        <div class="heroSliderContainer">
+          <div class="heroSlider">
+            <div class="heroSliderInner">
+              <!--Slider Item-->
+              <div class="heroSliderItem">
+                <div class="heroSliderItemImg">
+                  <img
+                    src="https://www.themoviedb.org/t/p/original/93SxdkiR3gBcbG5FxIt0DCBttul.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="heroSliderItemText">
+                  <div class="details">
+                    <h2>Willow</h2>
+                    <div class="data">
+                      <ul class="genre">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Adventure</a></li>
+                      </ul>
+                      <span></span>
+                      <a href="#" class="year">2022</a>
+                      <span></span>
+                      <p class="duration">1h 41m</p>
+                      <span></span>
+
+                      <div class="quality">HD</div>
+                    </div>
+                    <p class="plot">
+                      Many years after the events of the original film,
+                      legendary sorcerer Willow leads a group of misfit heroes
+                      on a dangerous rescue mission through a world beyond their
+                      wildest imaginations.
+                    </p>
+                  </div>
+                  <div class="buttons">
+                    <a href="#" class="btn btn_md"
+                      ><i class="far fa-play"></i> Watch Now</a
+                    >
+                    <a href="#" class="btn_secondary btn_md"
+                      ><i class="far fa-plus"></i> Add to watchlist</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!--Slider Item-->
+              <div class="heroSliderItem">
+                <div class="heroSliderItemImg">
+                  <img
+                    src="https://www.themoviedb.org/t/p/original/tQ91wWQJ2WRNDXwxuO7GCXX5VPC.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="heroSliderItemText">
+                  <div class="details">
+                    <h2>Avatar: The Way of Water</h2>
+                    <div class="data">
+                      <ul class="genre">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Adventure</a></li>
+                      </ul>
+                      <span></span>
+                      <a href="#" class="year">2022</a>
+                      <span></span>
+                      <p class="duration">3h 41m</p>
+                      <span></span>
+
+                      <div class="quality">HD</div>
+                    </div>
+                    <p class="plot">
+                      Set more than a decade after the events of the first film,
+                      learn the story of the Sully family (Jake, Neytiri, and
+                      their kids), the trouble that follows them, the lengths
+                      they go to keep each other safe, the battles they fight to
+                      stay alive, and the tragedies they endure.
+                    </p>
+                  </div>
+                  <div class="buttons">
+                    <a href="#" class="btn btn_md"
+                      ><i class="far fa-play"></i> Watch Now</a
+                    >
+                    <a href="#" class="btn_secondary btn_md"
+                      ><i class="far fa-plus"></i> Add to watchlist</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!--Slider Item-->
+              <div class="heroSliderItem">
+                <div class="heroSliderItemImg">
+                  <img
+                    src="https://www.themoviedb.org/t/p/original/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="heroSliderItemText">
+                  <div class="details">
+                    <h2>Spider-Man: No Way Home</h2>
+                    <div class="data">
+                      <ul class="genre">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Sci-fi</a></li>
+                      </ul>
+                      <span></span>
+                      <a href="#" class="year">2021</a>
+                      <span></span>
+                      <p class="duration">2h 28m</p>
+                      <span></span>
+
+                      <div class="quality">HD</div>
+                    </div>
+                    <p class="plot">
+                      Peter Parker is unmasked and no longer able to separate
+                      his normal life from the high-stakes of being a
+                      super-hero. When he asks for help from Doctor Strange the
+                      stakes become even more dangerous, forcing him to discover
+                      what it truly means to be Spider-Man.
+                    </p>
+                  </div>
+                  <div class="buttons">
+                    <a href="#" class="btn btn_md"
+                      ><i class="far fa-play"></i> Watch Now</a
+                    >
+                    <a href="#" class="btn_secondary btn_md"
+                      ><i class="far fa-plus"></i> Add to watchlist</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <!--Slider Item-->
+              <div class="heroSliderItem">
+                <div class="heroSliderItemImg">
+                  <img
+                    src="https://www.themoviedb.org/t/p/original/mqsPyyeDCBAghXyjbw4TfEYwljw.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="heroSliderItemText">
+                  <div class="details">
+                    <h2>All Quiet on the Western Front</h2>
+                    <div class="data">
+                      <ul class="genre">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Sci-fi</a></li>
+                      </ul>
+                      <span></span>
+                      <a href="#" class="year">2022</a>
+                      <span></span>
+                      <p class="duration">2h 27m</p>
+                      <span></span>
+
+                      <div class="quality">HD</div>
+                    </div>
+                    <p class="plot">
+                      Paul Baumer and his friends Albert and Muller, egged on by
+                      romantic dreams of heroism, voluntarily enlist in the
+                      German army. Full of excitement and patriotic fervour, the
+                      boys enthusiastically march into a war they believe in.
+                      But once on the Western Front, they discover the
+                      soul-destroying horror of World War I.
+                    </p>
+                  </div>
+                  <div class="buttons">
+                    <a href="#" class="btn btn_md"
+                      ><i class="far fa-play"></i> Watch Now</a
+                    >
+                    <a href="#" class="btn_secondary btn_md"
+                      ><i class="far fa-plus"></i> Add to watchlist</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <button class="sliderBtn next">
+              <i class="fal fa-chevron-right"></i>
+            </button>
+            <button class="sliderBtn prev">
+              <i class="fal fa-chevron-left"></i>
+            </button> -->
+            <div class="sliderIndicators"></div>
+          </div>
+        </div>
+      </header>
+      <div class="section">
+        <h2>Movies</h2>
+        <div class="section_header">
+          <div class="filters_container">
+            <div class="arrow_prev">
+              <i class="fal fa-angle-left"></i>
+            </div>
+            <div class="filters">
+              <button class="filter active" data-filter="all">All</button>
+              <button class="filter" data-filter="action">Action</button>
+              <button class="filter" data-filter="drama">Drama</button>
+              <button class="filter" data-filter="adventure">Adventure</button>
+              <button class="filter" data-filter="horror">Horror</button>
+              <button class="filter" data-filter="thriller">Thriller</button>
+              <button class="filter" data-filter="crime">Crime</button>
+              <button class="filter" data-filter="comedy">Comedy</button>
+              <button class="filter" data-filter="history">History</button>
+              <button class="filter" data-filter="animation">Animation</button>
+              <button class="filter" data-filter="documentary">
+                Documentary
+              </button>
+              <button class="filter" data-filter="romance">Romance</button>
+              <button class="filter" data-filter="scifi">Sci-Fi</button>
+              <button class="filter" data-filter="fantasy">Fantasy</button>
+              <button class="filter" data-filter="western">Western</button>
+              <button class="filter" data-filter="adult">Adult</button>
+            </div>
+            <div class="arrow_next active">
+              <i class="fal fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="movies">
+          <div class="movie show" data-genre="drama, action">
+            <div class="movie_poster">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/53P8oHo9cfOsgb1cLxBi4pFY0ja.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">The Good Doctor</p>
+            <ul class="movie_genre">
+              <li><a href="#">Drama</a></li>
+              <li><a href="#">Action</a></li>
+            </ul>
+            <!-- <div class="movie_details">
+              <p class="movie_name">The Good Doctor</p>
+              <div class="movie_data">
+                <ul class="movie_genre">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Drama</a></li>
+                </ul>
+                <p class="movie_year">2017</p>
+                <p class="movie_time">1h 41m</p>
+              </div>
+              <p class="movie_plot">
+                Shaun Murphy, a young surgeon with autism and savant syndrome,
+                relocates from a quiet country life to join a prestigious
+                hospital's surgical unit. Unable to personally connect with those
+                around him, Shaun uses his extraordinary medical gifts to save
+                lives and challenge the skepticism of his colleagues.
+              </p>
+              <div class="movie_btns">
+                <a href="#" class="btn btn_md">Watch now</a>
+                <a href="#" class="btn_secondary btn_md">Add to watchlist</a>
+              </div>
+            </div> -->
+          </div>
+          <div class="movie show" data-genre="horror, action">
+            <div class="movie_poster">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rFljUdOozFEv6HDHIFpFvcYW0ec.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">Project Gemini</p>
+            <ul class="movie_genre">
+              <li><a href="#">Horror</a></li>
+              <li><a href="#">Action</a></li>
+            </ul>
+          </div>
+          <div class="movie show" data-genre="adventure, thriller">
+            <div class="movie_poster">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">Interstellar</p>
+            <ul class="movie_genre">
+              <li><a href="#">Adventure</a></li>
+              <li><a href="#">Thriller</a></li>
+            </ul>
+          </div>
+          <div class="movie show" data-genre="drama, adventure">
+            <div class="movie_poster">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ccBe5BVeibdBEQU7l6P6BubajWV.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">the peripheral</p>
+            <ul class="movie_genre">
+              <li><a href="#">Drama</a></li>
+              <li><a href="#">Adventure</a></li>
+            </ul>
+          </div>
+          <div class="movie show" data-genre="action, history">
+            <div class="movie_poster">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6sJcVzGCwrDCBMV0DU6eRzA2UxM.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">amesterdam</p>
+            <ul class="movie_genre">
+              <li><a href="#">History</a></li>
+              <li><a href="#">Action</a></li>
+            </ul>
+          </div>
+          <div class="movie show" data-genre="thriller, horror">
+            <div class="movie_poster">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9z4jRr43JdtU66P0iy8h18OyLql.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">troll</p>
+            <ul class="movie_genre">
+              <li><a href="#">Thriller</a></li>
+              <li><a href="#">Horror</a></li>
+            </ul>
+          </div>
+          <div class="movie show" data-genre="action, crime">
+            <div class="movie_poster">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pWKTaGN9WMcKHKAir9POsKm4vEo.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">the forest</p>
+            <ul class="movie_genre">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Crime</a></li>
+            </ul>
+          </div>
+          <div class="movie show" data-genre="adventure, thriller">
+            <div class="movie_poster">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z2yahl2uefxDCl0nogcRBstwruJ.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">house of the dragon</p>
+            <ul class="movie_genre">
+              <li><a href="#">Adventure</a></li>
+              <li><a href="#">Thriller</a></li>
+            </ul>
+          </div>
+          <div class="movie show" data-genre="adventure, drama">
+            <div class="movie_poster">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uAeZI1JJbLPq7Bu5dziH7emHeu7.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">lost bullet 2</p>
+            <ul class="movie_genre">
+              <li><a href="#">Adventure</a></li>
+              <li><a href="#">Drama</a></li>
+            </ul>
+          </div>
+          <div class="movie show" data-genre="action, drama">
+            <div class="movie_poster">
+              <img
+                src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pFlaoHTZeyNkG83vxsAJiGzfSsa.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">black adam</p>
+            <ul class="movie_genre">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Drama</a></li>
+            </ul>
+          </div>
+          <div class="movie show" data-genre="comedy, thriller">
+            <div class="movie_poster">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BZWRiMDRkNmItYjkyNi00ZDFmLWFkMWEtNzYxYjk3NDI1YTFkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">the bubble</p>
+            <ul class="movie_genre">
+              <li><a href="#">Comedy</a></li>
+              <li><a href="#">Thriller</a></li>
+            </ul>
+          </div>
+          <div class="movie show" data-genre="history, action">
+            <div class="movie_poster">
+              <img
+                src="https://fr.web.img6.acsta.net/pictures/22/07/22/15/59/5308737.jpg"
+                alt=""
+              />
+            </div>
+            <p class="movie_title">woman king</p>
+            <ul class="movie_genre">
+              <li><a href="#">History</a></li>
+              <li><a href="#">Action</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
